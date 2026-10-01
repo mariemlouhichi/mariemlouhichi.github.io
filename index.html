@@ -1,0 +1,820 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Mariem Louhichi | Data Science &amp; IA</title>
+<meta name="description" content="Portfolio de Mariem Louhichi, élève ingénieure Data Science / IA (ESPRIT) — stage de fin d'études chez VERMEG : LLMs, RAG, systèmes multi-agents, ML explicable et MLOps.">
+<meta name="author" content="Mariem Louhichi">
+<meta name="theme-color" content="#0b1d42">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Mariem Louhichi | Data Science &amp; IA">
+<meta property="og:description" content="Data Science &amp; IA — LLMs, RAG, systèmes multi-agents et MLOps. Stage de fin d'études chez VERMEG (2026).">
+<meta property="og:image" content="https://mariemlouhichi.github.io/assets/img/mariem.jpg">
+<meta property="og:url" content="https://mariemlouhichi.github.io/">
+<meta property="og:locale" content="fr_FR">
+<meta name="twitter:card" content="summary">
+<link rel="canonical" href="https://mariemlouhichi.github.io/">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%231d4ed8'/%3E%3Cstop offset='1' stop-color='%2338bdf8'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='64' height='64' rx='16' fill='url(%23g)'/%3E%3Ctext x='32' y='42' font-family='Arial,sans-serif' font-size='26' font-weight='700' fill='%23ffffff' text-anchor='middle'%3EML%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;family=JetBrains+Mono:wght@500&amp;display=swap">
+<link rel="stylesheet" href="assets/css/style.css">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Mariem Louhichi",
+  "url": "https://mariemlouhichi.github.io/",
+  "image": "https://mariemlouhichi.github.io/assets/img/mariem.jpg",
+  "jobTitle": "Élève ingénieure — Data Science / IA",
+  "knowsAbout": ["Machine Learning", "Deep Learning", "LLM", "RAG", "Multi-agent systems", "MLOps", "AML/KYC compliance"],
+  "email": "mailto:mariem.louhichi@esprit.tn",
+  "telephone": "+216 55 356 058",
+  "alumniOf": [{"@type": "CollegeOrUniversity", "name": "ESPRIT"}, {"@type": "CollegeOrUniversity", "name": "IPEIN"}],
+  "sameAs": ["https://www.linkedin.com/in/mariem-louhichi-ab2577311", "https://github.com/mariemlouhichi"]
+}
+</script>
+</head>
+<body>
+
+<!-- ============ ICÔNES (sprite SVG) ============ -->
+<svg class="sprite" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false">
+  <symbol id="i-mail" viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></symbol>
+  <symbol id="i-phone" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></symbol>
+  <symbol id="i-linkedin" viewBox="0 0 24 24"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></symbol>
+  <symbol id="i-github" viewBox="0 0 24 24"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></symbol>
+  <symbol id="i-pin" viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></symbol>
+  <symbol id="i-download" viewBox="0 0 24 24"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></symbol>
+  <symbol id="i-arrow-right" viewBox="0 0 24 24"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></symbol>
+  <symbol id="i-arrow-up" viewBox="0 0 24 24"><line x1="12" y1="19" x2="12" y2="5"/><polyline points="5 12 12 5 19 12"/></symbol>
+  <symbol id="i-sun" viewBox="0 0 24 24"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></symbol>
+  <symbol id="i-moon" viewBox="0 0 24 24"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></symbol>
+  <symbol id="i-menu" viewBox="0 0 24 24"><line x1="3" y1="7" x2="21" y2="7"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="17" x2="21" y2="17"/></symbol>
+  <symbol id="i-x" viewBox="0 0 24 24"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></symbol>
+  <symbol id="i-globe" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></symbol>
+  <symbol id="i-code" viewBox="0 0 24 24"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></symbol>
+  <symbol id="i-cpu" viewBox="0 0 24 24"><rect x="4" y="4" width="16" height="16" rx="2"/><rect x="9" y="9" width="6" height="6"/><line x1="9" y1="1" x2="9" y2="4"/><line x1="15" y1="1" x2="15" y2="4"/><line x1="9" y1="20" x2="9" y2="23"/><line x1="15" y1="20" x2="15" y2="23"/><line x1="20" y1="9" x2="23" y2="9"/><line x1="20" y1="14" x2="23" y2="14"/><line x1="1" y1="9" x2="4" y2="9"/><line x1="1" y1="14" x2="4" y2="14"/></symbol>
+  <symbol id="i-layers" viewBox="0 0 24 24"><polygon points="12 2 2 7 12 12 22 7 12 2"/><polyline points="2 17 12 22 22 17"/><polyline points="2 12 12 17 22 12"/></symbol>
+  <symbol id="i-database" viewBox="0 0 24 24"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"/><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"/></symbol>
+  <symbol id="i-server" viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="8" rx="2"/><rect x="2" y="14" width="20" height="8" rx="2"/><line x1="6" y1="6" x2="6.01" y2="6"/><line x1="6" y1="18" x2="6.01" y2="18"/></symbol>
+  <symbol id="i-briefcase" viewBox="0 0 24 24"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></symbol>
+  <symbol id="i-cap" viewBox="0 0 24 24"><path d="M22 10L12 5 2 10l10 5 10-5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/><line x1="22" y1="10" x2="22" y2="16"/></symbol>
+  <symbol id="i-award" viewBox="0 0 24 24"><circle cx="12" cy="8" r="7"/><polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"/></symbol>
+  <symbol id="i-calendar" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></symbol>
+  <symbol id="i-copy" viewBox="0 0 24 24"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></symbol>
+  <symbol id="i-check" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></symbol>
+  <symbol id="i-send" viewBox="0 0 24 24"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></symbol>
+  <symbol id="i-file" viewBox="0 0 24 24"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></symbol>
+  <symbol id="i-scan" viewBox="0 0 24 24"><path d="M3 7V5a2 2 0 0 1 2-2h2"/><path d="M17 3h2a2 2 0 0 1 2 2v2"/><path d="M21 17v2a2 2 0 0 1-2 2h-2"/><path d="M7 21H5a2 2 0 0 1-2-2v-2"/><line x1="7" y1="12" x2="17" y2="12"/></symbol>
+  <symbol id="i-activity" viewBox="0 0 24 24"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></symbol>
+  <symbol id="i-trend" viewBox="0 0 24 24"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/><polyline points="17 6 23 6 23 12"/></symbol>
+  <symbol id="i-shield" viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><polyline points="9 12 11 14 15 10"/></symbol>
+  <symbol id="i-user" viewBox="0 0 24 24"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></symbol>
+  <symbol id="i-star" viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></symbol>
+  <symbol id="i-spark" viewBox="0 0 24 24"><path d="M12 3l1.9 5.8L20 11l-6.1 2.2L12 19l-1.9-5.8L4 11l6.1-2.2z"/><path d="M19 3v4"/><path d="M21 5h-4"/></symbol>
+  <symbol id="i-cycle" viewBox="0 0 24 24"><polyline points="23 4 23 10 17 10"/><polyline points="1 20 1 14 7 14"/><path d="M3.51 9a9 9 0 0 1 14.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0 0 20.49 15"/></symbol>
+  <symbol id="i-external" viewBox="0 0 24 24"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></symbol>
+</svg>
+
+<a class="skip-link" href="#apropos" data-fr="Aller au contenu" data-en="Skip to content">Aller au contenu</a>
+<div class="progress" id="progress" aria-hidden="true"></div>
+
+<!-- ============ BARRE DE NAVIGATION ============ -->
+<header class="topbar" id="topbar">
+  <div class="container topbar-in">
+    <a class="brand" href="#accueil" aria-label="Mariem Louhichi — accueil">
+      <span class="brand-logo">ML</span>
+      <span class="brand-text">Mariem <b>Louhichi</b></span>
+    </a>
+
+    <nav class="menu" id="menu" aria-label="Navigation principale">
+      <a href="#apropos"        data-fr="À propos"       data-en="About">À propos</a>
+      <a href="#competences"    data-fr="Compétences"    data-en="Skills">Compétences</a>
+      <a href="#projets"        data-fr="Projets"        data-en="Projects">Projets</a>
+      <a href="#experience"     data-fr="Expérience"     data-en="Experience">Expérience</a>
+      <a href="#formation"      data-fr="Formation"      data-en="Education">Formation</a>
+      <a href="#certifications" data-fr="Certifications" data-en="Certifications">Certifications</a>
+      <a href="#contact"        data-fr="Contact"        data-en="Contact">Contact</a>
+    </nav>
+
+    <div class="topbar-actions">
+      <button class="icon-btn lang-btn" id="langBtn" type="button" aria-label="Switch to English">
+        <svg class="i"><use href="#i-globe"/></svg><span id="langLabel">EN</span>
+      </button>
+      <button class="icon-btn" id="themeBtn" type="button" aria-label="Changer de thème">
+        <svg class="i i-sun"><use href="#i-sun"/></svg>
+        <svg class="i i-moon"><use href="#i-moon"/></svg>
+      </button>
+      <a class="btn btn-primary btn-sm cv-btn" href="assets/cv/Mariem_Louhichi_CV.pdf" target="_blank" rel="noopener">
+        <svg class="i"><use href="#i-download"/></svg><span>CV</span>
+      </a>
+      <button class="icon-btn burger" id="burger" type="button" aria-label="Ouvrir le menu" aria-expanded="false" aria-controls="menu">
+        <svg class="i i-open"><use href="#i-menu"/></svg>
+        <svg class="i i-close"><use href="#i-x"/></svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main>
+
+<!-- ============ ACCUEIL ============ -->
+<section class="hero" id="accueil">
+  <div class="hero-bg" aria-hidden="true">
+    <span class="glow glow-1"></span>
+    <span class="glow glow-2"></span>
+    <span class="hero-grid"></span>
+  </div>
+
+  <div class="container hero-in">
+    <div class="hero-text">
+      <span class="hero-pill"><span class="pulse"></span><span data-fr="Stage de fin d'études réalisé chez VERMEG · 2026" data-en="Final-year internship completed at VERMEG · 2026">Stage de fin d'études réalisé chez VERMEG · 2026</span></span>
+
+      <p class="hero-hello" data-fr="Bonjour, je suis" data-en="Hello, I'm">Bonjour, je suis</p>
+      <h1 class="hero-name">Mariem <span class="grad-text">Louhichi</span></h1>
+      <p class="hero-role" data-fr="Informatique : Data Science / IA" data-en="Computer Science: Data Science / AI">Informatique : Data Science / IA</p>
+
+      <p class="hero-typed">
+        <span data-fr="Spécialisée en" data-en="Focused on">Spécialisée en</span>
+        <span class="typed" id="typed"
+              data-fr-words='["Data Science","IA générative","LLMs &amp; RAG","Systèmes multi-agents","IA explicable","Deep Learning","MLOps"]'
+              data-en-words='["Data Science","Generative AI","LLMs &amp; RAG","Multi-agent systems","Explainable AI","Deep Learning","MLOps"]'>Data Science</span><span class="caret" aria-hidden="true"></span>
+      </p>
+
+      <p class="hero-desc"
+         data-fr="Passionnée par l'IA générative, les LLMs et les systèmes multi-agents, je conçois des solutions intelligentes et explicables, de la recherche jusqu'au déploiement — dernièrement chez VERMEG, pour la conformité bancaire AML/KYC."
+         data-en="Passionate about generative AI, LLMs and multi-agent systems, I build intelligent, explainable solutions from research to deployment — most recently at VERMEG, for AML/KYC banking compliance.">Passionnée par l'IA générative, les LLMs et les systèmes multi-agents, je conçois des solutions intelligentes et explicables, de la recherche jusqu'au déploiement — dernièrement chez VERMEG, pour la conformité bancaire AML/KYC.</p>
+
+      <div class="hero-cta">
+        <a class="btn btn-primary btn-lg" href="#projets">
+          <span data-fr="Voir mes projets" data-en="View my projects">Voir mes projets</span>
+          <svg class="i"><use href="#i-arrow-right"/></svg>
+        </a>
+        <a class="btn btn-ghost btn-lg" href="assets/cv/Mariem_Louhichi_CV.pdf" target="_blank" rel="noopener">
+          <svg class="i"><use href="#i-download"/></svg>
+          <span data-fr="Télécharger mon CV" data-en="Download my CV">Télécharger mon CV</span>
+        </a>
+      </div>
+
+      <div class="hero-social">
+        <a class="social-btn" href="https://www.linkedin.com/in/mariem-louhichi-ab2577311" target="_blank" rel="noopener" aria-label="LinkedIn"><svg class="i"><use href="#i-linkedin"/></svg></a>
+        <a class="social-btn" href="https://github.com/mariemlouhichi" target="_blank" rel="noopener" aria-label="GitHub"><svg class="i"><use href="#i-github"/></svg></a>
+        <a class="social-btn" href="mailto:mariem.louhichi@esprit.tn" aria-label="Email"><svg class="i"><use href="#i-mail"/></svg></a>
+        <a class="social-btn" href="tel:+21655356058" aria-label="Téléphone"><svg class="i"><use href="#i-phone"/></svg></a>
+      </div>
+    </div>
+
+    <div class="hero-visual">
+      <div class="avatar">
+        <span class="avatar-ring" aria-hidden="true"></span>
+        <img src="assets/img/mariem.jpg" alt="Photo de Mariem Louhichi" width="1280" height="1176">
+      </div>
+
+      <div class="float-card fc-1">
+        <span class="fc-ico"><svg class="i"><use href="#i-cpu"/></svg></span>
+        <span class="fc-txt"><b data-fr="IA générative" data-en="Generative AI">IA générative</b><small>LLMs · RAG · Agents</small></span>
+      </div>
+      <div class="float-card fc-2">
+        <span class="fc-ico"><svg class="i"><use href="#i-briefcase"/></svg></span>
+        <span class="fc-txt"><b>VERMEG</b><small data-fr="Stage PFE · 6 mois · 2026" data-en="Final-year internship · 6 months">Stage PFE · 6 mois · 2026</small></span>
+      </div>
+      <div class="float-card fc-3">
+        <span class="fc-ico"><svg class="i"><use href="#i-award"/></svg></span>
+        <span class="fc-txt"><b>4 certifications</b><small>NVIDIA · AWS</small></span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CHIFFRES CLÉS ============ -->
+<section class="stats" aria-label="Chiffres clés">
+  <div class="container stats-grid">
+    <div class="stat-card">
+      <span class="stat-ico"><svg class="i"><use href="#i-briefcase"/></svg></span>
+      <span class="stat-txt"><b>3</b><span data-fr="Stages en entreprise" data-en="Industry internships">Stages en entreprise</span></span>
+    </div>
+    <div class="stat-card">
+      <span class="stat-ico"><svg class="i"><use href="#i-code"/></svg></span>
+      <span class="stat-txt"><b>5</b><span data-fr="Projets IA &amp; Data" data-en="AI &amp; data projects">Projets IA &amp; Data</span></span>
+    </div>
+    <div class="stat-card">
+      <span class="stat-ico"><svg class="i"><use href="#i-award"/></svg></span>
+      <span class="stat-txt"><b>4</b><span data-fr="Certifications" data-en="Certifications">Certifications</span></span>
+    </div>
+    <div class="stat-card">
+      <span class="stat-ico"><svg class="i"><use href="#i-globe"/></svg></span>
+      <span class="stat-txt"><b>3</b><span data-fr="Langues parlées" data-en="Spoken languages">Langues parlées</span></span>
+    </div>
+  </div>
+</section>
+
+<!-- ============ À PROPOS ============ -->
+<section class="section" id="apropos">
+  <div class="container">
+    <header class="sec-head">
+      <span class="sec-tag" data-fr="À propos" data-en="About me">À propos</span>
+      <h2 data-fr="Qui suis-je ?" data-en="Who am I?">Qui suis-je ?</h2>
+      <p data-fr="Un aperçu de mon parcours, de mes centres d'intérêt et de ce qui me motive." data-en="A glimpse of my background, my interests and what drives me.">Un aperçu de mon parcours, de mes centres d'intérêt et de ce qui me motive.</p>
+    </header>
+
+    <div class="about-grid">
+      <div class="about-text">
+        <h3 data-fr="L'intelligence artificielle appliquée, de la donnée à la production" data-en="Applied artificial intelligence, from data to production">L'intelligence artificielle appliquée, de la donnée à la production</h3>
+        <p data-fr="En fin de cycle ingénieur en informatique à <b>ESPRIT</b>, spécialité <b>Data Science</b>, je me passionne pour l'intelligence artificielle appliquée : IA générative, LLMs, RAG et systèmes multi-agents."
+           data-en="Completing my computer engineering degree at <b>ESPRIT</b>, majoring in <b>Data Science</b>, I am passionate about applied artificial intelligence: generative AI, LLMs, RAG and multi-agent systems.">En fin de cycle ingénieur en informatique à <b>ESPRIT</b>, spécialité <b>Data Science</b>, je me passionne pour l'intelligence artificielle appliquée : IA générative, LLMs, RAG et systèmes multi-agents.</p>
+        <p data-fr="J'ai réalisé mon stage de fin d'études de six mois chez <b>VERMEG</b>, éditeur de logiciels FinTech pour la banque et l'assurance. J'y ai conçu et déployé <b>LexIQ</b>, une plateforme de conformité AML/KYC qui combine règles métier, RAG agentique et machine learning explicable."
+           data-en="I completed my six-month final-year internship at <b>VERMEG</b>, a FinTech software vendor for banking and insurance, where I designed and deployed <b>LexIQ</b>, an AML/KYC compliance platform that combines business rules, agentic RAG and explainable machine learning.">J'ai réalisé mon stage de fin d'études de six mois chez <b>VERMEG</b>, éditeur de logiciels FinTech pour la banque et l'assurance. J'y ai conçu et déployé <b>LexIQ</b>, une plateforme de conformité AML/KYC qui combine règles métier, RAG agentique et machine learning explicable.</p>
+        <p data-fr="Auparavant, mes stages chez <b>Talan Tunisie</b> et <b>Tunisie Telecom</b>, ainsi que mes projets académiques en NLP, vision par ordinateur et MLOps, m'avaient appris à mener un projet d'IA de bout en bout — des données jusqu'à l'application déployée."
+           data-en="Before that, my internships at <b>Talan Tunisia</b> and <b>Tunisie Telecom</b>, along with academic projects in NLP, computer vision and MLOps, had taught me to deliver an AI project end to end — from raw data to a deployed application.">Auparavant, mes stages chez <b>Talan Tunisie</b> et <b>Tunisie Telecom</b>, ainsi que mes projets académiques en NLP, vision par ordinateur et MLOps, m'avaient appris à mener un projet d'IA de bout en bout — des données jusqu'à l'application déployée.</p>
+
+        <p class="mini-title" data-fr="Centres d'intérêt" data-en="Areas of interest">Centres d'intérêt</p>
+        <div class="chips">
+          <span class="chip" data-fr="IA générative" data-en="Generative AI">IA générative</span>
+          <span class="chip">LLMs</span>
+          <span class="chip">RAG</span>
+          <span class="chip" data-fr="Systèmes multi-agents" data-en="Multi-agent systems">Systèmes multi-agents</span>
+          <span class="chip">NLP</span>
+          <span class="chip" data-fr="Vision par ordinateur" data-en="Computer vision">Vision par ordinateur</span>
+          <span class="chip" data-fr="IA explicable" data-en="Explainable AI">IA explicable</span>
+          <span class="chip" data-fr="FinTech &amp; conformité" data-en="FinTech &amp; compliance">FinTech &amp; conformité</span>
+          <span class="chip">MLOps</span>
+        </div>
+
+        <div class="about-cta">
+          <a class="btn btn-primary" href="#contact">
+            <svg class="i"><use href="#i-mail"/></svg>
+            <span data-fr="Me contacter" data-en="Contact me">Me contacter</span>
+          </a>
+          <a class="btn btn-outline" href="assets/cv/Mariem_Louhichi_CV.pdf" target="_blank" rel="noopener">
+            <svg class="i"><use href="#i-download"/></svg>
+            <span data-fr="Télécharger le CV" data-en="Download CV">Télécharger le CV</span>
+          </a>
+        </div>
+      </div>
+
+      <aside class="info-card">
+        <h3 class="info-title" data-fr="Informations" data-en="Details">Informations</h3>
+        <ul class="info-list">
+          <li>
+            <span class="info-ico"><svg class="i"><use href="#i-user"/></svg></span>
+            <span class="info-txt"><small data-fr="Nom" data-en="Name">Nom</small><b>Mariem Louhichi</b></span>
+          </li>
+          <li>
+            <span class="info-ico"><svg class="i"><use href="#i-cap"/></svg></span>
+            <span class="info-txt"><small data-fr="Formation" data-en="Education">Formation</small><b data-fr="Cycle ingénieur — Data Science, ESPRIT" data-en="Engineering degree — Data Science, ESPRIT">Cycle ingénieur — Data Science, ESPRIT</b></span>
+          </li>
+          <li>
+            <span class="info-ico"><svg class="i"><use href="#i-briefcase"/></svg></span>
+            <span class="info-txt"><small data-fr="Dernier stage" data-en="Latest internship">Dernier stage</small><b data-fr="Stage PFE — VERMEG (févr. – août 2026)" data-en="Final-year internship — VERMEG (Feb – Aug 2026)">Stage PFE — VERMEG (févr. – août 2026)</b></span>
+          </li>
+          <li>
+            <span class="info-ico"><svg class="i"><use href="#i-mail"/></svg></span>
+            <span class="info-txt"><small>Email</small><a href="mailto:mariem.louhichi@esprit.tn">mariem.louhichi@esprit.tn</a></span>
+          </li>
+          <li>
+            <span class="info-ico"><svg class="i"><use href="#i-phone"/></svg></span>
+            <span class="info-txt"><small data-fr="Téléphone" data-en="Phone">Téléphone</small><a href="tel:+21655356058">+216 55 356 058</a></span>
+          </li>
+          <li>
+            <span class="info-ico"><svg class="i"><use href="#i-pin"/></svg></span>
+            <span class="info-txt"><small data-fr="Localisation" data-en="Location">Localisation</small><b data-fr="Tunisie" data-en="Tunisia">Tunisie</b></span>
+          </li>
+          <li>
+            <span class="info-ico"><svg class="i"><use href="#i-globe"/></svg></span>
+            <span class="info-txt"><small data-fr="Langues" data-en="Languages">Langues</small><b data-fr="Arabe, Français, Anglais" data-en="Arabic, French, English">Arabe, Français, Anglais</b></span>
+          </li>
+        </ul>
+      </aside>
+    </div>
+  </div>
+</section>
+
+<!-- ============ COMPÉTENCES ============ -->
+<section class="section section-alt" id="competences">
+  <div class="container">
+    <header class="sec-head">
+      <span class="sec-tag" data-fr="Compétences" data-en="Skills">Compétences</span>
+      <h2 data-fr="Mes compétences techniques" data-en="Technical skills">Mes compétences techniques</h2>
+      <p data-fr="Les langages, outils et technologies que j'utilise pour concevoir des solutions d'IA — enrichis par mon stage de fin d'études chez VERMEG." data-en="The languages, tools and technologies I use to build AI solutions — strengthened by my final-year internship at VERMEG.">Les langages, outils et technologies que j'utilise pour concevoir des solutions d'IA — enrichis par mon stage de fin d'études chez VERMEG.</p>
+    </header>
+
+    <div class="skills-grid">
+      <article class="skill-card">
+        <div class="skill-head">
+          <span class="skill-ico"><svg class="i"><use href="#i-code"/></svg></span>
+          <div><h3 data-fr="Développement" data-en="Development">Développement</h3><p data-fr="Langages, back-end et front-end" data-en="Languages, back-end and front-end">Langages, back-end et front-end</p></div>
+        </div>
+        <div class="tags">
+          <span class="tag">Python</span><span class="tag">C</span><span class="tag">C#</span><span class="tag">TypeScript</span><span class="tag">Spring Boot</span><span class="tag">Flask</span><span class="tag">FastAPI</span><span class="tag">React</span><span class="tag">Tailwind CSS</span><span class="tag">API REST</span>
+        </div>
+      </article>
+
+      <article class="skill-card">
+        <div class="skill-head">
+          <span class="skill-ico"><svg class="i"><use href="#i-cpu"/></svg></span>
+          <div><h3 data-fr="IA &amp; Data Science" data-en="AI &amp; Data Science">IA &amp; Data Science</h3><p data-fr="Modélisation, apprentissage et analyse" data-en="Modelling, learning and analysis">Modélisation, apprentissage et analyse</p></div>
+        </div>
+        <div class="tags">
+          <span class="tag">Machine Learning</span><span class="tag">Deep Learning</span><span class="tag">NLP</span><span class="tag">Transformers</span><span class="tag">Computer Vision</span><span class="tag" data-fr="Détection de fraude &amp; d'anomalies" data-en="Fraud &amp; anomaly detection">Détection de fraude &amp; d'anomalies</span><span class="tag" data-fr="IA explicable (XAI)" data-en="Explainable AI (XAI)">IA explicable (XAI)</span>
+        </div>
+      </article>
+
+      <article class="skill-card">
+        <div class="skill-head">
+          <span class="skill-ico"><svg class="i"><use href="#i-spark"/></svg></span>
+          <div><h3 data-fr="IA générative &amp; LLMs" data-en="Generative AI &amp; LLMs">IA générative &amp; LLMs</h3><p data-fr="LLMs, RAG et agents" data-en="LLMs, RAG and agents">LLMs, RAG et agents</p></div>
+        </div>
+        <div class="tags">
+          <span class="tag">LLMs</span><span class="tag">Generative AI</span><span class="tag">RAG</span><span class="tag" data-fr="Systèmes multi-agents" data-en="Multi-agent systems">Systèmes multi-agents</span><span class="tag" data-fr="IA neuro-symbolique" data-en="Neuro-symbolic AI">IA neuro-symbolique</span><span class="tag" data-fr="Recherche hybride (BM25 + vectorielle)" data-en="Hybrid search (BM25 + vector)">Recherche hybride (BM25 + vectorielle)</span><span class="tag">Re-ranking</span><span class="tag">Embeddings</span><span class="tag" data-fr="Évaluation RAG" data-en="RAG evaluation">Évaluation RAG</span>
+        </div>
+      </article>
+
+      <article class="skill-card">
+        <div class="skill-head">
+          <span class="skill-ico"><svg class="i"><use href="#i-layers"/></svg></span>
+          <div><h3 data-fr="Frameworks &amp; bibliothèques" data-en="Frameworks &amp; libraries">Frameworks &amp; bibliothèques</h3><p data-fr="ML, deep learning et NLP" data-en="ML, deep learning and NLP">ML, deep learning et NLP</p></div>
+        </div>
+        <div class="tags">
+          <span class="tag">TensorFlow</span><span class="tag">PyTorch</span><span class="tag">Hugging Face</span><span class="tag">LangChain</span><span class="tag">Scikit-learn</span><span class="tag">XGBoost</span><span class="tag">LightGBM</span><span class="tag">SHAP</span><span class="tag">Sentence-Transformers</span><span class="tag">Docling</span><span class="tag">Optuna</span><span class="tag">Pandas</span><span class="tag">NumPy</span>
+        </div>
+      </article>
+
+      <article class="skill-card">
+        <div class="skill-head">
+          <span class="skill-ico"><svg class="i"><use href="#i-database"/></svg></span>
+          <div><h3 data-fr="Bases de données" data-en="Databases">Bases de données</h3><p data-fr="Relationnel, NoSQL, graphe, vectoriel, big data" data-en="Relational, NoSQL, graph, vector, big data">Relationnel, NoSQL, graphe, vectoriel, big data</p></div>
+        </div>
+        <div class="tags">
+          <span class="tag">SQL</span><span class="tag">PostgreSQL</span><span class="tag">Oracle</span><span class="tag">MongoDB</span><span class="tag">Neo4j</span><span class="tag">Weaviate</span><span class="tag">Redis</span><span class="tag">Spark</span><span class="tag">Hadoop</span><span class="tag">HBase</span>
+        </div>
+      </article>
+
+      <article class="skill-card">
+        <div class="skill-head">
+          <span class="skill-ico"><svg class="i"><use href="#i-server"/></svg></span>
+          <div><h3>DevOps &amp; MLOps</h3><p data-fr="Industrialisation et déploiement" data-en="Industrialisation and deployment">Industrialisation et déploiement</p></div>
+        </div>
+        <div class="tags">
+          <span class="tag">Docker</span><span class="tag">Docker Compose</span><span class="tag">Kubernetes</span><span class="tag">Git</span><span class="tag">GitHub Actions</span><span class="tag">Jenkins</span><span class="tag">CI/CD</span><span class="tag">MLflow</span><span class="tag">SonarQube</span><span class="tag">Grafana</span><span class="tag">Azure Container Apps</span>
+        </div>
+      </article>
+
+      <article class="skill-card">
+        <div class="skill-head">
+          <span class="skill-ico"><svg class="i"><use href="#i-shield"/></svg></span>
+          <div><h3 data-fr="Finance &amp; conformité" data-en="Finance &amp; compliance">Finance &amp; conformité</h3><p data-fr="Expertise métier acquise chez VERMEG" data-en="Domain expertise gained at VERMEG">Expertise métier acquise chez VERMEG</p></div>
+        </div>
+        <div class="tags">
+          <span class="tag" data-fr="Conformité AML/KYC" data-en="AML/KYC compliance">Conformité AML/KYC</span><span class="tag" data-fr="Lutte anti-blanchiment (LBC/FT)" data-en="Anti-money laundering (AML/CFT)">Lutte anti-blanchiment (LBC/FT)</span><span class="tag" data-fr="Réglementation BCT &amp; CTAF" data-en="BCT &amp; CTAF regulation">Réglementation BCT &amp; CTAF</span><span class="tag" data-fr="Standards GAFI" data-en="FATF standards">Standards GAFI</span><span class="tag" data-fr="Filtrage des sanctions" data-en="Sanctions screening">Filtrage des sanctions</span><span class="tag" data-fr="Scoring de risque client" data-en="Customer risk scoring">Scoring de risque client</span><span class="tag" data-fr="Déclaration de soupçon" data-en="Suspicious activity reporting">Déclaration de soupçon</span>
+        </div>
+      </article>
+
+      <article class="skill-card">
+        <div class="skill-head">
+          <span class="skill-ico"><svg class="i"><use href="#i-cycle"/></svg></span>
+          <div><h3 data-fr="Méthodologies" data-en="Methodologies">Méthodologies</h3><p data-fr="Gestion de projet et qualité" data-en="Project management and quality">Gestion de projet et qualité</p></div>
+        </div>
+        <div class="tags">
+          <span class="tag">Scrum</span><span class="tag">CRISP-DM</span><span class="tag" data-fr="UML (cas d'utilisation, séquence)" data-en="UML (use case, sequence)">UML (cas d'utilisation, séquence)</span><span class="tag" data-fr="Tests automatisés (pytest)" data-en="Automated testing (pytest)">Tests automatisés (pytest)</span>
+        </div>
+      </article>
+
+      <article class="skill-card">
+        <div class="skill-head">
+          <span class="skill-ico"><svg class="i"><use href="#i-globe"/></svg></span>
+          <div><h3 data-fr="Langues" data-en="Languages">Langues</h3><p data-fr="Communication professionnelle" data-en="Professional communication">Communication professionnelle</p></div>
+        </div>
+        <ul class="lang-list">
+          <li>
+            <div class="lang-row"><span data-fr="Arabe" data-en="Arabic">Arabe</span><small data-fr="Langue maternelle" data-en="Native">Langue maternelle</small></div>
+            <div class="bar"><span style="width:100%"></span></div>
+          </li>
+          <li>
+            <div class="lang-row"><span data-fr="Français" data-en="French">Français</span><small>B2</small></div>
+            <div class="bar"><span style="width:75%"></span></div>
+          </li>
+          <li>
+            <div class="lang-row"><span data-fr="Anglais" data-en="English">Anglais</span><small>B2</small></div>
+            <div class="bar"><span style="width:75%"></span></div>
+          </li>
+        </ul>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PROJETS ============ -->
+<section class="section" id="projets">
+  <div class="container">
+    <header class="sec-head">
+      <span class="sec-tag" data-fr="Projets" data-en="Projects">Projets</span>
+      <h2 data-fr="Mes réalisations" data-en="My work">Mes réalisations</h2>
+      <p data-fr="Mon projet de fin d'études réalisé chez VERMEG et mes projets académiques en IA, data science et MLOps." data-en="My final-year project completed at VERMEG and my academic projects in AI, data science and MLOps.">Mon projet de fin d'études réalisé chez VERMEG et mes projets académiques en IA, data science et MLOps.</p>
+    </header>
+
+    <!-- Projet phare : PFE -->
+    <article class="feature">
+      <div class="feature-main">
+        <div class="feature-badges">
+          <span class="badge badge-solid"><svg class="i"><use href="#i-star"/></svg><span data-fr="Projet phare" data-en="Featured project">Projet phare</span></span>
+          <span class="badge" data-fr="Stage PFE chez VERMEG · févr. – août 2026" data-en="Final-year internship at VERMEG · Feb – Aug 2026">Stage PFE chez VERMEG · févr. – août 2026</span>
+        </div>
+        <h3 class="feature-title">LexIQ</h3>
+        <p class="feature-sub" data-fr="Plateforme de conformité bancaire AML/KYC — neuro-symbolique &amp; multi-agent" data-en="AML/KYC banking-compliance platform — neuro-symbolic &amp; multi-agent">Plateforme de conformité bancaire AML/KYC — neuro-symbolique &amp; multi-agent</p>
+        <p class="feature-desc"
+           data-fr="Réalisée pendant mon stage de fin d'études chez VERMEG, LexIQ est une plateforme d'aide à la décision pour la lutte anti-blanchiment, appliquée à la réglementation tunisienne (BCT, CTAF) et aux standards internationaux (GAFI/FATF). Chaque décision est justifiée juridiquement : les règles appliquées sont reliées à leur texte source, avec citation verbatim."
+           data-en="Built during my final-year internship at VERMEG, LexIQ is a decision-support platform for anti-money-laundering compliance, applied to Tunisian regulation (BCT, CTAF) and international standards (FATF). Every decision is legally justified: each applied rule is linked to its source text, with a verbatim citation.">Réalisée pendant mon stage de fin d'études chez VERMEG, LexIQ est une plateforme d'aide à la décision pour la lutte anti-blanchiment, appliquée à la réglementation tunisienne (BCT, CTAF) et aux standards internationaux (GAFI/FATF). Chaque décision est justifiée juridiquement : les règles appliquées sont reliées à leur texte source, avec citation verbatim.</p>
+        <ul class="check-list">
+          <li><svg class="i"><use href="#i-check"/></svg><span data-fr="Pipeline multi-agent en 9 étapes : règles, scoring client, planification, RAG, conformité, ML, rapport de soupçon, validation humaine." data-en="9-step multi-agent pipeline: rules, client scoring, planning, RAG, compliance, ML, suspicious-activity report, human review.">Pipeline multi-agent en 9 étapes : règles, scoring client, planification, RAG, conformité, ML, rapport de soupçon, validation humaine.</span></li>
+          <li><svg class="i"><use href="#i-check"/></svg><span data-fr="RAG hybride (BM25 + vectoriel + re-ranking) et graphe de connaissances Neo4j." data-en="Hybrid RAG (BM25 + vector + re-ranking) and a Neo4j knowledge graph.">RAG hybride (BM25 + vectoriel + re-ranking) et graphe de connaissances Neo4j.</span></li>
+          <li><svg class="i"><use href="#i-check"/></svg><span data-fr="Détection de fraude par ML explicable (XGBoost, LightGBM, SHAP)." data-en="Explainable fraud-detection ML (XGBoost, LightGBM, SHAP).">Détection de fraude par ML explicable (XGBoost, LightGBM, SHAP).</span></li>
+          <li><svg class="i"><use href="#i-check"/></svg><span data-fr="Plateforme web multi-rôles (React, FastAPI, PostgreSQL) : contrôle d'accès à trois rôles, file d'instruction, validation humaine et notifications en temps réel." data-en="Multi-role web platform (React, FastAPI, PostgreSQL): three-role access control, case queue, human review and real-time notifications.">Plateforme web multi-rôles (React, FastAPI, PostgreSQL) : contrôle d'accès à trois rôles, file d'instruction, validation humaine et notifications en temps réel.</span></li>
+          <li><svg class="i"><use href="#i-check"/></svg><span data-fr="Conteneurisation Docker, CI/CD GitHub Actions et déploiement sur Azure Container Apps." data-en="Docker containerisation, GitHub Actions CI/CD and deployment on Azure Container Apps.">Conteneurisation Docker, CI/CD GitHub Actions et déploiement sur Azure Container Apps.</span></li>
+        </ul>
+      </div>
+
+      <aside class="feature-side">
+        <p class="side-title" data-fr="Résultats clés" data-en="Key results">Résultats clés</p>
+        <div class="metrics">
+          <div class="metric"><b>0 %</b><span data-fr="Hallucination" data-en="Hallucination">Hallucination</span></div>
+          <div class="metric"><b>100 %</b><span data-fr="Accuracy décisionnelle" data-en="Decision accuracy">Accuracy décisionnelle</span></div>
+          <div class="metric"><b data-fr="0,95" data-en="0.95">0,95</b><span data-fr="PR-AUC (ML fraude)" data-en="PR-AUC (fraud ML)">PR-AUC (ML fraude)</span></div>
+          <div class="metric"><b data-fr="0,96" data-en="0.96">0,96</b><span data-fr="F1-score (ML fraude)" data-en="F1-score (fraud ML)">F1-score (ML fraude)</span></div>
+          <div class="metric"><b data-fr="91,7 %" data-en="91.7 %">91,7 %</b><span data-fr="Hit-Rate@5 (RAG)" data-en="Hit-Rate@5 (RAG)">Hit-Rate@5 (RAG)</span></div>
+          <div class="metric"><b data-fr="6 678" data-en="6,678">6 678</b><span data-fr="Chunks réglementaires" data-en="Regulatory chunks">Chunks réglementaires</span></div>
+        </div>
+        <p class="side-title side-title-2" data-fr="Technologies" data-en="Tech stack">Technologies</p>
+        <div class="tags tags-dark">
+          <span class="tag">React</span><span class="tag">TypeScript</span><span class="tag">FastAPI</span><span class="tag">PostgreSQL</span><span class="tag">Neo4j</span><span class="tag">Weaviate</span><span class="tag">Redis</span><span class="tag">Llama 3.3 70B</span><span class="tag">XGBoost</span><span class="tag">LightGBM</span><span class="tag">SHAP</span><span class="tag">Docling</span><span class="tag">Docker</span><span class="tag">GitHub Actions</span><span class="tag">Azure</span>
+        </div>
+        <p class="side-note">
+          <svg class="i"><use href="#i-shield"/></svg>
+          <span data-fr="Code privé — démonstration disponible sur demande." data-en="Private code — demo available on request.">Code privé — démonstration disponible sur demande.</span>
+        </p>
+      </aside>
+    </article>
+
+    <!-- Filtres -->
+    <div class="filters" role="group" aria-label="Filtrer les projets">
+      <button type="button" class="filter is-active" data-filter="all"   data-fr="Tous" data-en="All">Tous</button>
+      <button type="button" class="filter" data-filter="nlp"   data-fr="IA &amp; NLP" data-en="AI &amp; NLP">IA &amp; NLP</button>
+      <button type="button" class="filter" data-filter="cv"    data-fr="Vision par ordinateur" data-en="Computer vision">Vision par ordinateur</button>
+      <button type="button" class="filter" data-filter="mlops" data-fr="MLOps" data-en="MLOps">MLOps</button>
+    </div>
+
+    <div class="projects-grid" id="projectsGrid">
+
+      <article class="project-card" data-cat="nlp">
+        <div class="pc-top">
+          <span class="pc-ico"><svg class="i"><use href="#i-file"/></svg></span>
+          <span class="pc-metric" data-fr="95 % de précision" data-en="95 % accuracy">95 % de précision</span>
+        </div>
+        <p class="pc-cat" data-fr="NLP · IA générative" data-en="NLP · Generative AI">NLP · IA générative</p>
+        <h3>NewsBot AI</h3>
+        <p class="pc-sub" data-fr="Assistant pour journalistes" data-en="Assistant for journalists">Assistant pour journalistes</p>
+        <ul class="pc-list">
+          <li data-fr="Développement d'un assistant IA capable de résumer et classifier les actualités avec une précision de <b>95 %</b>." data-en="Built an AI assistant that summarises and classifies news with <b>95 %</b> accuracy.">Développement d'un assistant IA capable de résumer et classifier les actualités avec une précision de <b>95 %</b>.</li>
+          <li data-fr="Intégration d'un pipeline RAG fournissant des réponses explicatives et vérifiées." data-en="Integrated a RAG pipeline delivering explanatory, verified answers.">Intégration d'un pipeline RAG fournissant des réponses explicatives et vérifiées.</li>
+        </ul>
+        <div class="tags"><span class="tag">LangChain</span><span class="tag">RAG</span><span class="tag">BART</span><span class="tag">FastAPI</span></div>
+      </article>
+
+      <article class="project-card" data-cat="cv">
+        <div class="pc-top">
+          <span class="pc-ico"><svg class="i"><use href="#i-scan"/></svg></span>
+          <span class="pc-metric" data-fr="OCR médical" data-en="Medical OCR">OCR médical</span>
+        </div>
+        <p class="pc-cat" data-fr="Vision par ordinateur · OCR" data-en="Computer vision · OCR">Vision par ordinateur · OCR</p>
+        <h3>Doxaria</h3>
+        <p class="pc-sub" data-fr="Extraction de contenu manuscrit médical" data-en="Medical handwritten content extraction">Extraction de contenu manuscrit médical</p>
+        <ul class="pc-list">
+          <li data-fr="Développement d'un système OCR avancé combinant détection et segmentation avec YOLO." data-en="Built an advanced OCR system combining detection and segmentation with YOLO.">Développement d'un système OCR avancé combinant détection et segmentation avec YOLO.</li>
+          <li data-fr="Reconnaissance et fine-tuning du texte manuscrit avec TrOCR dans les documents médicaux." data-en="Handwritten text recognition and fine-tuning with TrOCR on medical documents.">Reconnaissance et fine-tuning du texte manuscrit avec TrOCR dans les documents médicaux.</li>
+        </ul>
+        <div class="tags"><span class="tag">EasyOCR</span><span class="tag">TrOCR</span><span class="tag">YOLO</span></div>
+      </article>
+
+      <article class="project-card" data-cat="cv">
+        <div class="pc-top">
+          <span class="pc-ico"><svg class="i"><use href="#i-activity"/></svg></span>
+          <span class="pc-metric" data-fr="93,5 % de précision" data-en="93.5 % accuracy">93,5 % de précision</span>
+        </div>
+        <p class="pc-cat" data-fr="Deep learning · Imagerie médicale" data-en="Deep learning · Medical imaging">Deep learning · Imagerie médicale</p>
+        <h3 data-fr="Classification IRM" data-en="MRI classification">Classification IRM</h3>
+        <p class="pc-sub" data-fr="Tumeurs cérébrales" data-en="Brain tumours">Tumeurs cérébrales</p>
+        <ul class="pc-list">
+          <li data-fr="Conception et entraînement de modèles CNN, ResNet50 et VGG16 pour la détection automatique de tumeurs cérébrales." data-en="Designed and trained CNN, ResNet50 and VGG16 models for automatic brain-tumour detection.">Conception et entraînement de modèles CNN, ResNet50 et VGG16 pour la détection automatique de tumeurs cérébrales.</li>
+          <li data-fr="Précision de <b>93,5 %</b> et comparaison des performances entre modèles pré-entraînés et personnalisés." data-en="<b>93.5 %</b> accuracy, with a performance comparison between pre-trained and custom models.">Précision de <b>93,5 %</b> et comparaison des performances entre modèles pré-entraînés et personnalisés.</li>
+        </ul>
+        <div class="tags"><span class="tag">CNN</span><span class="tag">ResNet50</span><span class="tag">VGG16</span></div>
+      </article>
+
+      <article class="project-card" data-cat="mlops">
+        <div class="pc-top">
+          <span class="pc-ico"><svg class="i"><use href="#i-trend"/></svg></span>
+          <span class="pc-metric" data-fr="Pipeline automatisé" data-en="Automated pipeline">Pipeline automatisé</span>
+        </div>
+        <p class="pc-cat">MLOps</p>
+        <h3>MLOps Churn Client Prediction</h3>
+        <p class="pc-sub" data-fr="Prédiction &amp; segmentation du churn client" data-en="Customer churn prediction &amp; segmentation">Prédiction &amp; segmentation du churn client</p>
+        <ul class="pc-list">
+          <li data-fr="Conception d'un pipeline MLOps automatisé pour entraîner, déployer et monitorer un modèle." data-en="Designed an automated MLOps pipeline to train, deploy and monitor a model.">Conception d'un pipeline MLOps automatisé pour entraîner, déployer et monitorer un modèle.</li>
+          <li data-fr="Modèle de prédiction et de segmentation du churn client." data-en="Customer churn prediction and segmentation model.">Modèle de prédiction et de segmentation du churn client.</li>
+        </ul>
+        <div class="tags"><span class="tag">MLflow</span><span class="tag">Docker</span><span class="tag">Flask</span></div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- ============ EXPÉRIENCE ============ -->
+<section class="section section-alt" id="experience">
+  <div class="container">
+    <header class="sec-head">
+      <span class="sec-tag" data-fr="Expérience" data-en="Experience">Expérience</span>
+      <h2 data-fr="Expérience professionnelle" data-en="Professional experience">Expérience professionnelle</h2>
+      <p data-fr="Trois stages en entreprise, dont un stage de fin d'études de six mois chez VERMEG." data-en="Three industry internships, including a six-month final-year internship at VERMEG.">Trois stages en entreprise, dont un stage de fin d'études de six mois chez VERMEG.</p>
+    </header>
+
+    <ol class="timeline">
+      <li class="tl-item">
+        <span class="tl-dot" aria-hidden="true"><svg class="i"><use href="#i-star"/></svg></span>
+        <article class="tl-card tl-featured">
+          <div class="tl-head">
+            <div>
+              <h3 data-fr="Stage de fin d'études&nbsp;— Data Science &amp; IA" data-en="Final-year internship&nbsp;— Data Science &amp; AI">Stage de fin d'études&nbsp;— Data Science &amp; IA</h3>
+              <p class="tl-org">VERMEG <span class="tl-org-desc" data-fr="· FinTech, logiciels pour les services financiers" data-en="· FinTech, software for financial services">· FinTech, logiciels pour les services financiers</span></p>
+            </div>
+            <div class="tl-badges">
+              <span class="date-badge"><svg class="i"><use href="#i-calendar"/></svg><span data-fr="16 févr. – 16 août 2026" data-en="Feb 16 – Aug 16, 2026">16 févr. – 16 août 2026</span></span>
+              <span class="badge badge-solid" data-fr="Stage PFE · 6 mois" data-en="Final-year internship · 6 months">Stage PFE · 6 mois</span>
+            </div>
+          </div>
+          <p class="tl-summary" data-fr="Mission : concevoir et réaliser <b>LexIQ</b>, une plateforme de conformité AML/KYC qui exploite les LLMs et les architectures RAG pour automatiser l'analyse de conformité des transactions financières." data-en="Mission: design and build <b>LexIQ</b>, an AML/KYC compliance platform that leverages LLMs and RAG architectures to automate the compliance analysis of financial transactions.">Mission : concevoir et réaliser <b>LexIQ</b>, une plateforme de conformité AML/KYC qui exploite les LLMs et les architectures RAG pour automatiser l'analyse de conformité des transactions financières.</p>
+          <ul class="tl-list">
+            <li data-fr="Étude du domaine AML/KYC et des obligations BCT, CTAF et GAFI, traduites en cas d'utilisation et en backlog produit priorisé." data-en="Analysed the AML/KYC domain and BCT, CTAF and FATF obligations, translated into use cases and a prioritised product backlog.">Étude du domaine AML/KYC et des obligations BCT, CTAF et GAFI, traduites en cas d'utilisation et en backlog produit priorisé.</li>
+            <li data-fr="Base de connaissances réglementaire : 34 textes découpés en 6 678 chunks indexés dans Weaviate, et graphe de connaissances Neo4j reliant chaque règle à sa source." data-en="Regulatory knowledge base: 34 texts split into 6,678 chunks indexed in Weaviate, plus a Neo4j knowledge graph linking every rule to its source.">Base de connaissances réglementaire : 34 textes découpés en 6 678 chunks indexés dans Weaviate, et graphe de connaissances Neo4j reliant chaque règle à sa source.</li>
+            <li data-fr="Moteur de décision neuro-symbolique : règles déterministes, agents LLM (Llama 3.3 70B) et RAG hybride avec citation verbatim — <b>0 % d'hallucination</b>." data-en="Neuro-symbolic decision engine: deterministic rules, LLM agents (Llama 3.3 70B) and hybrid RAG with verbatim citations — <b>0 % hallucination</b>.">Moteur de décision neuro-symbolique : règles déterministes, agents LLM (Llama 3.3 70B) et RAG hybride avec citation verbatim — <b>0 % d'hallucination</b>.</li>
+            <li data-fr="Détection de fraude par ML explicable (XGBoost, LightGBM, SHAP — <b>PR-AUC 0,95</b>), scoring KYC et génération des déclarations de soupçon." data-en="Explainable fraud-detection ML (XGBoost, LightGBM, SHAP — <b>PR-AUC 0.95</b>), KYC scoring and suspicious-activity report generation.">Détection de fraude par ML explicable (XGBoost, LightGBM, SHAP — <b>PR-AUC 0,95</b>), scoring KYC et génération des déclarations de soupçon.</li>
+            <li data-fr="Plateforme web multi-rôles (React, TypeScript, FastAPI, PostgreSQL) avec validation humaine et notifications en temps réel." data-en="Multi-role web platform (React, TypeScript, FastAPI, PostgreSQL) with human review and real-time notifications.">Plateforme web multi-rôles (React, TypeScript, FastAPI, PostgreSQL) avec validation humaine et notifications en temps réel.</li>
+            <li data-fr="Mise en production (Docker, CI/CD GitHub Actions, Azure Container Apps), en méthode CRISP-DM + Scrum sur 8 sprints." data-en="Production rollout (Docker, GitHub Actions CI/CD, Azure Container Apps), following CRISP-DM + Scrum over 8 sprints.">Mise en production (Docker, CI/CD GitHub Actions, Azure Container Apps), en méthode CRISP-DM + Scrum sur 8 sprints.</li>
+          </ul>
+          <div class="tags"><span class="tag">LLMs</span><span class="tag">RAG</span><span class="tag" data-fr="Multi-agents" data-en="Multi-agent">Multi-agents</span><span class="tag">Neo4j</span><span class="tag">Weaviate</span><span class="tag">XGBoost</span><span class="tag">FastAPI</span><span class="tag">React</span><span class="tag">Docker</span><span class="tag">Azure</span></div>
+          <div class="tl-foot">
+            <a class="doc-btn" href="assets/docs/attestations/attestation-stage-vermeg.pdf" target="_blank" rel="noopener"><svg class="i"><use href="#i-file"/></svg><span data-fr="Voir l'attestation de stage" data-en="View internship certificate">Voir l'attestation de stage</span><svg class="i i-ext"><use href="#i-external"/></svg></a>
+          </div>
+        </article>
+      </li>
+
+      <li class="tl-item">
+        <span class="tl-dot" aria-hidden="true"><svg class="i"><use href="#i-briefcase"/></svg></span>
+        <article class="tl-card">
+          <div class="tl-head">
+            <div>
+              <h3 data-fr="Ingénieure IA Stagiaire" data-en="AI Engineer Intern">Ingénieure IA Stagiaire</h3>
+              <p class="tl-org">Talan Tunisie</p>
+            </div>
+            <span class="date-badge"><svg class="i"><use href="#i-calendar"/></svg><span data-fr="Juillet – Août 2025" data-en="July – August 2025">Juillet – Août 2025</span></span>
+          </div>
+          <ul class="tl-list">
+            <li data-fr="Conception d'une plateforme <b>Intelligent Lead Engagement Platform</b> exploitant l'IA générative, les LLMs et des systèmes multi-agents pour l'automatisation de la qualification des prospects." data-en="Designed an <b>Intelligent Lead Engagement Platform</b> leveraging generative AI, LLMs and multi-agent systems to automate lead qualification.">Conception d'une plateforme <b>Intelligent Lead Engagement Platform</b> exploitant l'IA générative, les LLMs et des systèmes multi-agents pour l'automatisation de la qualification des prospects.</li>
+            <li data-fr="Implémentation d'un pipeline <b>RAG</b> pour la recherche contextuelle et la génération de réponses vérifiées." data-en="Implemented a <b>RAG</b> pipeline for contextual search and verified answer generation.">Implémentation d'un pipeline <b>RAG</b> pour la recherche contextuelle et la génération de réponses vérifiées.</li>
+          </ul>
+          <div class="tags"><span class="tag" data-fr="IA générative" data-en="Generative AI">IA générative</span><span class="tag">LLMs</span><span class="tag" data-fr="Multi-agents" data-en="Multi-agent">Multi-agents</span><span class="tag">RAG</span></div>
+          <div class="tl-foot">
+            <a class="doc-btn" href="assets/docs/attestations/attestation-stage-talan.pdf" target="_blank" rel="noopener"><svg class="i"><use href="#i-file"/></svg><span data-fr="Voir l'attestation de stage" data-en="View internship certificate">Voir l'attestation de stage</span><svg class="i i-ext"><use href="#i-external"/></svg></a>
+          </div>
+        </article>
+      </li>
+
+      <li class="tl-item">
+        <span class="tl-dot" aria-hidden="true"><svg class="i"><use href="#i-code"/></svg></span>
+        <article class="tl-card">
+          <div class="tl-head">
+            <div>
+              <h3 data-fr="Stagiaire Développement Full-Stack" data-en="Full-Stack Development Intern">Stagiaire Développement Full-Stack</h3>
+              <p class="tl-org">Tunisie Telecom</p>
+            </div>
+            <span class="date-badge"><svg class="i"><use href="#i-calendar"/></svg><span data-fr="Juillet – Août 2024" data-en="July – August 2024">Juillet – Août 2024</span></span>
+          </div>
+          <ul class="tl-list">
+            <li data-fr="Développement d'un site web de gestion des sites GSM." data-en="Developed a website for managing GSM sites.">Développement d'un site web de gestion des sites GSM.</li>
+            <li data-fr="Réalisation des opérations CRUD et intégration d'une base de données relationnelle." data-en="Implemented CRUD operations and integrated a relational database.">Réalisation des opérations CRUD et intégration d'une base de données relationnelle.</li>
+          </ul>
+          <div class="tags"><span class="tag" data-fr="Développement web" data-en="Web development">Développement web</span><span class="tag">CRUD</span><span class="tag">SQL</span></div>
+          <div class="tl-foot">
+            <a class="doc-btn" href="assets/docs/attestations/attestation-stage-tunisie-telecom.pdf" target="_blank" rel="noopener"><svg class="i"><use href="#i-file"/></svg><span data-fr="Voir l'attestation de stage" data-en="View internship certificate">Voir l'attestation de stage</span><svg class="i i-ext"><use href="#i-external"/></svg></a>
+          </div>
+        </article>
+      </li>
+    </ol>
+  </div>
+</section>
+
+<!-- ============ FORMATION ============ -->
+<section class="section" id="formation">
+  <div class="container">
+    <header class="sec-head">
+      <span class="sec-tag" data-fr="Formation" data-en="Education">Formation</span>
+      <h2 data-fr="Mon parcours académique" data-en="Academic background">Mon parcours académique</h2>
+      <p data-fr="De la classe préparatoire au cycle ingénieur en Data Science." data-en="From preparatory classes to a Data Science engineering degree.">De la classe préparatoire au cycle ingénieur en Data Science.</p>
+    </header>
+
+    <div class="edu-grid">
+      <article class="edu-card">
+        <div class="edu-top">
+          <span class="edu-ico"><svg class="i"><use href="#i-cap"/></svg></span>
+          <span class="date-badge">2023 – 2026</span>
+        </div>
+        <h3>ESPRIT</h3>
+        <p class="edu-full" data-fr="École Supérieure Privée d'Ingénierie et de Technologies" data-en="Private Higher School of Engineering and Technology">École Supérieure Privée d'Ingénierie et de Technologies</p>
+        <p class="edu-degree" data-fr="Cycle ingénieur — Spécialité Data Science" data-en="Engineering degree — Data Science major">Cycle ingénieur — Spécialité Data Science</p>
+        <p class="edu-pfe"><svg class="i"><use href="#i-star"/></svg><span data-fr="PFE : LexIQ, chez VERMEG (2026)" data-en="Final-year project: LexIQ, at VERMEG (2026)">PFE : LexIQ, chez VERMEG (2026)</span></p>
+        <p class="edu-place"><svg class="i"><use href="#i-pin"/></svg>Tunis</p>
+      </article>
+
+      <article class="edu-card">
+        <div class="edu-top">
+          <span class="edu-ico"><svg class="i"><use href="#i-cap"/></svg></span>
+          <span class="date-badge">2021 – 2023</span>
+        </div>
+        <h3>IPEIN</h3>
+        <p class="edu-full" data-fr="Institut Préparatoire aux Études d'Ingénieurs de Nabeul" data-en="Nabeul Preparatory Institute for Engineering Studies">Institut Préparatoire aux Études d'Ingénieurs de Nabeul</p>
+        <p class="edu-degree" data-fr="Cycle préparatoire Physique-Chimie" data-en="Preparatory cycle — Physics &amp; Chemistry">Cycle préparatoire Physique-Chimie</p>
+        <p class="edu-place"><svg class="i"><use href="#i-pin"/></svg>Nabeul</p>
+      </article>
+
+      <article class="edu-card">
+        <div class="edu-top">
+          <span class="edu-ico"><svg class="i"><use href="#i-cap"/></svg></span>
+          <span class="date-badge">2020 – 2021</span>
+        </div>
+        <h3 data-fr="Lycée Menzel Bouzalfa" data-en="Menzel Bouzalfa High School">Lycée Menzel Bouzalfa</h3>
+        <p class="edu-full" data-fr="Enseignement secondaire" data-en="Secondary education">Enseignement secondaire</p>
+        <p class="edu-degree" data-fr="Baccalauréat en Sciences Expérimentales" data-en="Baccalaureate in Experimental Sciences">Baccalauréat en Sciences Expérimentales</p>
+        <p class="edu-place"><svg class="i"><use href="#i-pin"/></svg>Nabeul</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CERTIFICATIONS ============ -->
+<section class="section section-alt" id="certifications">
+  <div class="container">
+    <header class="sec-head">
+      <span class="sec-tag" data-fr="Certifications" data-en="Certifications">Certifications</span>
+      <h2 data-fr="Certifications obtenues" data-en="Earned certifications">Certifications obtenues</h2>
+      <p data-fr="Formations certifiantes suivies auprès de NVIDIA, Amazon Web Services et The Hashgraph Association — certificats consultables et vérifiables en ligne." data-en="Certified training from NVIDIA, Amazon Web Services and The Hashgraph Association — certificates you can view and verify online.">Formations certifiantes suivies auprès de NVIDIA, Amazon Web Services et The Hashgraph Association — certificats consultables et vérifiables en ligne.</p>
+    </header>
+
+    <div class="cert-grid">
+      <article class="cert-card">
+        <div class="cert-top"><span class="cert-ico"><svg class="i"><use href="#i-award"/></svg></span><span class="date-badge" data-fr="Mai 2025" data-en="May 2025">Mai 2025</span></div>
+        <h3>Applications of AI for Anomaly Detection</h3>
+        <div class="cert-foot"><small data-fr="Délivrée par" data-en="Issued by">Délivrée par</small><span class="cert-org">NVIDIA</span></div>
+        <div class="cert-actions"><a class="doc-btn" href="assets/docs/certificats/certificat-nvidia-anomaly-detection.pdf" target="_blank" rel="noopener" title="Applications of AI for Anomaly Detection (PDF)"><svg class="i"><use href="#i-file"/></svg><span>PDF</span></a><a class="doc-btn doc-btn-ghost" href="https://learn.nvidia.com/certificates?id=QuHrgYbZSxa355RbtLaHKA" target="_blank" rel="noopener" title="Applications of AI for Anomaly Detection"><svg class="i"><use href="#i-shield"/></svg><span data-fr="Vérifier" data-en="Verify">Vérifier</span></a></div>
+      </article>
+      <article class="cert-card">
+        <div class="cert-top"><span class="cert-ico"><svg class="i"><use href="#i-award"/></svg></span><span class="date-badge" data-fr="Octobre 2025" data-en="October 2025">Octobre 2025</span></div>
+        <h3>Building Transformer-Based Natural Language Processing Applications</h3>
+        <div class="cert-foot"><small data-fr="Délivrée par" data-en="Issued by">Délivrée par</small><span class="cert-org">NVIDIA</span></div>
+        <div class="cert-actions"><a class="doc-btn" href="assets/docs/certificats/certificat-nvidia-transformer-nlp.pdf" target="_blank" rel="noopener" title="Building Transformer-Based Natural Language Processing Applications (PDF)"><svg class="i"><use href="#i-file"/></svg><span>PDF</span></a><a class="doc-btn doc-btn-ghost" href="https://learn.nvidia.com/certificates?id=TumXXwU1SGOjen8Z6L5BYw" target="_blank" rel="noopener" title="Building Transformer-Based Natural Language Processing Applications"><svg class="i"><use href="#i-shield"/></svg><span data-fr="Vérifier" data-en="Verify">Vérifier</span></a></div>
+      </article>
+      <article class="cert-card">
+        <div class="cert-top"><span class="cert-ico"><svg class="i"><use href="#i-award"/></svg></span><span class="date-badge" data-fr="Octobre 2025" data-en="October 2025">Octobre 2025</span></div>
+        <h3>AWS Academy Graduate&nbsp;— Cloud Foundations</h3>
+        <div class="cert-foot"><small data-fr="Délivrée par" data-en="Issued by">Délivrée par</small><span class="cert-org">Amazon Web Services</span></div>
+        <div class="cert-actions"><a class="doc-btn" href="assets/docs/certificats/certificat-aws-academy-cloud-foundations.pdf" target="_blank" rel="noopener" title="AWS Academy Graduate — Cloud Foundations (PDF)"><svg class="i"><use href="#i-file"/></svg><span>PDF</span></a><a class="doc-btn doc-btn-ghost" href="https://www.credly.com/go/jrEbGcN3" target="_blank" rel="noopener" title="AWS Academy Graduate — Cloud Foundations"><svg class="i"><use href="#i-shield"/></svg><span data-fr="Vérifier" data-en="Verify">Vérifier</span></a></div>
+      </article>
+      <article class="cert-card">
+        <div class="cert-top"><span class="cert-ico"><svg class="i"><use href="#i-award"/></svg></span><span class="date-badge">2025</span></div>
+        <h3>Hashgraph Developer Course</h3>
+        <div class="cert-foot"><small data-fr="Délivrée par" data-en="Issued by">Délivrée par</small><span class="cert-org">The Hashgraph Association</span></div>
+        <p class="cert-note" data-fr="Certificat disponible sur demande" data-en="Certificate available on request">Certificat disponible sur demande</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CONTACT ============ -->
+<section class="contact" id="contact">
+  <div class="hero-bg" aria-hidden="true">
+    <span class="glow glow-1"></span>
+    <span class="glow glow-2"></span>
+  </div>
+  <div class="container contact-in">
+    <div class="contact-info">
+      <span class="sec-tag sec-tag-light">Contact</span>
+      <h2 data-fr="Travaillons ensemble" data-en="Let's work together">Travaillons ensemble</h2>
+      <p class="contact-lead" data-fr="Une opportunité professionnelle ou un projet de collaboration en IA et data science ? N'hésitez pas à me contacter, je vous répondrai rapidement." data-en="A job opportunity or a collaboration in AI and data science? Feel free to get in touch — I'll get back to you quickly.">Une opportunité professionnelle ou un projet de collaboration en IA et data science ? N'hésitez pas à me contacter, je vous répondrai rapidement.</p>
+
+      <ul class="contact-list">
+        <li class="contact-item">
+          <span class="ci-ico"><svg class="i"><use href="#i-mail"/></svg></span>
+          <span class="ci-txt"><small>Email</small><a href="mailto:mariem.louhichi@esprit.tn">mariem.louhichi@esprit.tn</a></span>
+          <button class="copy-btn" type="button" data-copy="mariem.louhichi@esprit.tn" aria-label="Copier l'email"><svg class="i"><use href="#i-copy"/></svg></button>
+        </li>
+        <li class="contact-item">
+          <span class="ci-ico"><svg class="i"><use href="#i-phone"/></svg></span>
+          <span class="ci-txt"><small data-fr="Téléphone" data-en="Phone">Téléphone</small><a href="tel:+21655356058">+216 55 356 058</a></span>
+          <button class="copy-btn" type="button" data-copy="+216 55 356 058" aria-label="Copier le numéro"><svg class="i"><use href="#i-copy"/></svg></button>
+        </li>
+        <li class="contact-item">
+          <span class="ci-ico"><svg class="i"><use href="#i-linkedin"/></svg></span>
+          <span class="ci-txt"><small>LinkedIn</small><a href="https://www.linkedin.com/in/mariem-louhichi-ab2577311" target="_blank" rel="noopener">linkedin.com/in/mariem-louhichi</a></span>
+          <a class="copy-btn" href="https://www.linkedin.com/in/mariem-louhichi-ab2577311" target="_blank" rel="noopener" aria-label="Ouvrir LinkedIn"><svg class="i"><use href="#i-external"/></svg></a>
+        </li>
+        <li class="contact-item">
+          <span class="ci-ico"><svg class="i"><use href="#i-github"/></svg></span>
+          <span class="ci-txt"><small>GitHub</small><a href="https://github.com/mariemlouhichi" target="_blank" rel="noopener">github.com/mariemlouhichi</a></span>
+          <a class="copy-btn" href="https://github.com/mariemlouhichi" target="_blank" rel="noopener" aria-label="Ouvrir GitHub"><svg class="i"><use href="#i-external"/></svg></a>
+        </li>
+      </ul>
+    </div>
+
+    <form class="contact-form" id="contactForm" novalidate>
+      <h3 data-fr="Envoyez-moi un message" data-en="Send me a message">Envoyez-moi un message</h3>
+      <div class="form-row">
+        <div class="field">
+          <label for="f-name" data-fr="Nom complet" data-en="Full name">Nom complet</label>
+          <input id="f-name" name="name" type="text" autocomplete="name" required data-fr-ph="Votre nom" data-en-ph="Your name" placeholder="Votre nom">
+        </div>
+        <div class="field">
+          <label for="f-email">Email</label>
+          <input id="f-email" name="email" type="email" autocomplete="email" required data-fr-ph="vous@exemple.com" data-en-ph="you@example.com" placeholder="vous@exemple.com">
+        </div>
+      </div>
+      <div class="field">
+        <label for="f-subject" data-fr="Sujet" data-en="Subject">Sujet</label>
+        <input id="f-subject" name="subject" type="text" data-fr-ph="Opportunité professionnelle, collaboration…" data-en-ph="Job opportunity, collaboration…" placeholder="Opportunité professionnelle, collaboration…">
+      </div>
+      <div class="field">
+        <label for="f-message">Message</label>
+        <textarea id="f-message" name="message" rows="5" required data-fr-ph="Bonjour Mariem, …" data-en-ph="Hello Mariem, …" placeholder="Bonjour Mariem, …"></textarea>
+      </div>
+      <p class="form-error" id="formError" hidden data-fr="Merci de renseigner votre nom, un email valide et votre message." data-en="Please fill in your name, a valid email and your message.">Merci de renseigner votre nom, un email valide et votre message.</p>
+      <button class="btn btn-primary btn-lg btn-block" type="submit">
+        <svg class="i"><use href="#i-send"/></svg>
+        <span data-fr="Envoyer le message" data-en="Send message">Envoyer le message</span>
+      </button>
+      <p class="form-note" data-fr="Le bouton ouvre votre messagerie avec le message pré-rempli." data-en="The button opens your email app with the message pre-filled.">Le bouton ouvre votre messagerie avec le message pré-rempli.</p>
+    </form>
+  </div>
+</section>
+
+</main>
+
+<!-- ============ PIED DE PAGE ============ -->
+<footer class="footer">
+  <div class="container footer-grid">
+    <div class="footer-brand">
+      <a class="brand brand-light" href="#accueil">
+        <span class="brand-logo">ML</span>
+        <span class="brand-text">Mariem <b>Louhichi</b></span>
+      </a>
+      <p data-fr="Data Science &amp; IA — LLMs, RAG, systèmes multi-agents et MLOps. Stage de fin d'études chez VERMEG (2026)." data-en="Data Science &amp; AI — LLMs, RAG, multi-agent systems and MLOps. Final-year internship at VERMEG (2026).">Data Science &amp; IA — LLMs, RAG, systèmes multi-agents et MLOps. Stage de fin d'études chez VERMEG (2026).</p>
+      <div class="footer-social">
+        <a class="social-btn" href="https://www.linkedin.com/in/mariem-louhichi-ab2577311" target="_blank" rel="noopener" aria-label="LinkedIn"><svg class="i"><use href="#i-linkedin"/></svg></a>
+        <a class="social-btn" href="https://github.com/mariemlouhichi" target="_blank" rel="noopener" aria-label="GitHub"><svg class="i"><use href="#i-github"/></svg></a>
+        <a class="social-btn" href="mailto:mariem.louhichi@esprit.tn" aria-label="Email"><svg class="i"><use href="#i-mail"/></svg></a>
+      </div>
+    </div>
+
+    <div class="footer-col">
+      <h4 data-fr="Navigation" data-en="Navigation">Navigation</h4>
+      <ul>
+        <li><a href="#apropos" data-fr="À propos" data-en="About">À propos</a></li>
+        <li><a href="#competences" data-fr="Compétences" data-en="Skills">Compétences</a></li>
+        <li><a href="#projets" data-fr="Projets" data-en="Projects">Projets</a></li>
+        <li><a href="#experience" data-fr="Expérience" data-en="Experience">Expérience</a></li>
+        <li><a href="#formation" data-fr="Formation" data-en="Education">Formation</a></li>
+        <li><a href="#certifications" data-fr="Certifications" data-en="Certifications">Certifications</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-col">
+      <h4>Contact</h4>
+      <ul>
+        <li><a href="mailto:mariem.louhichi@esprit.tn">mariem.louhichi@esprit.tn</a></li>
+        <li><a href="tel:+21655356058">+216 55 356 058</a></li>
+        <li><span data-fr="Tunisie" data-en="Tunisia">Tunisie</span></li>
+        <li><a href="assets/cv/Mariem_Louhichi_CV.pdf" target="_blank" rel="noopener" data-fr="Télécharger le CV" data-en="Download CV">Télécharger le CV</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <div class="container footer-bottom-in">
+      <p>© <span id="year">2026</span> Mariem Louhichi. <span data-fr="Tous droits réservés." data-en="All rights reserved.">Tous droits réservés.</span></p>
+      <a href="#accueil" class="footer-top"><span data-fr="Retour en haut" data-en="Back to top">Retour en haut</span><svg class="i"><use href="#i-arrow-up"/></svg></a>
+    </div>
+  </div>
+</footer>
+
+<button class="to-top" id="toTop" type="button" aria-label="Retour en haut"><svg class="i"><use href="#i-arrow-up"/></svg></button>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>
