@@ -930,6 +930,9 @@ section[id] { scroll-margin-top: calc(var(--topbar-h) + 8px); }
 .pc-list li::marker { color: var(--primary-3); }
 .pc-list b { color: var(--text); }
 .project-card .tags { margin-top: auto; padding-top: 18px; border-top: 1px solid var(--line); }
+.pc-link { display: inline-flex; align-items: center; gap: 6px; margin-top: 14px; font-size: .88rem; font-weight: 600; color: var(--primary-3); text-decoration: none; transition: color .2s; }
+.pc-link:hover { color: var(--primary-2); text-decoration: underline; }
+.pc-link .i { width: 16px; height: 16px; }
 
 /* =========================================================
    Expérience (chronologie)
