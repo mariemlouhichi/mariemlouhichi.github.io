@@ -965,8 +965,8 @@ section[id] { scroll-margin-top: calc(var(--topbar-h) + 8px); }
   box-shadow: 0 0 0 6px var(--bg-alt), 0 12px 24px -12px rgba(37, 99, 235, .9);
 }
 .tl-dot .i { width: 21px; height: 21px; }
-.tl-img { width: 100%; max-height: 160px; object-fit: cover; border-radius: 12px 12px 0 0; margin: -30px -30px 20px; width: calc(100% + 60px); }
-.tl-logo { height: 22px; width: auto; vertical-align: middle; margin-right: 4px; border-radius: 3px; }
+.tl-img { display: block; width: 100%; max-height: 120px; object-fit: cover; border-radius: 14px 14px 0 0; margin: -30px -30px 18px -30px; width: calc(100% + 60px); max-width: calc(100% + 60px); }
+.tl-logo { display: inline-block; height: 20px; width: auto !important; max-width: 80px; vertical-align: middle; margin-right: 6px; border-radius: 3px; object-fit: contain; }
 .tl-card { padding: 30px; }
 .tl-head {
   display: flex;
@@ -1064,7 +1064,7 @@ section[id] { scroll-margin-top: calc(var(--topbar-h) + 8px); }
   font-weight: 700;
 }
 .edu-pfe .i { width: 14px; height: 14px; fill: currentColor; }
-.edu-logo { height: 44px; width: auto; object-fit: contain; border-radius: 6px; }
+.edu-logo { display: inline-block; height: 40px; width: auto !important; max-width: 100px; object-fit: contain; border-radius: 6px; }
 .edu-note { margin: -10px 0 18px; font-size: .88rem; font-weight: 600; color: var(--primary-3); }
 .edu-place {
   display: flex;
@@ -1434,6 +1434,7 @@ section[id] { scroll-margin-top: calc(var(--topbar-h) + 8px); }
   .tl-item:not(:last-child)::before, .tl-dot { display: none; }
   .tl-item { padding-left: 0; }
   .tl-card { padding: 22px; }
+  .tl-img { margin: -22px -22px 14px -22px; width: calc(100% + 44px); max-width: calc(100% + 44px); max-height: 100px; }
   .tl-badges { justify-content: flex-start; }
 
   .contact-form { padding: 24px; }
