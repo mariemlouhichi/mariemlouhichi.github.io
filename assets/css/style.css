@@ -965,6 +965,8 @@ section[id] { scroll-margin-top: calc(var(--topbar-h) + 8px); }
   box-shadow: 0 0 0 6px var(--bg-alt), 0 12px 24px -12px rgba(37, 99, 235, .9);
 }
 .tl-dot .i { width: 21px; height: 21px; }
+.tl-img { width: 100%; max-height: 160px; object-fit: cover; border-radius: 12px 12px 0 0; margin: -30px -30px 20px; width: calc(100% + 60px); }
+.tl-logo { height: 22px; width: auto; vertical-align: middle; margin-right: 4px; border-radius: 3px; }
 .tl-card { padding: 30px; }
 .tl-head {
   display: flex;
@@ -1062,6 +1064,8 @@ section[id] { scroll-margin-top: calc(var(--topbar-h) + 8px); }
   font-weight: 700;
 }
 .edu-pfe .i { width: 14px; height: 14px; fill: currentColor; }
+.edu-logo { height: 44px; width: auto; object-fit: contain; border-radius: 6px; }
+.edu-note { margin: -10px 0 18px; font-size: .88rem; font-weight: 600; color: var(--primary-3); }
 .edu-place {
   display: flex;
   align-items: center;
